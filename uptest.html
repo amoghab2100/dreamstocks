@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>DreamStocks</title>
+
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                <div class="sidebar-brand-icon rotate-n-15">
+<!--                     <i class="fas fa-laugh-wink"></i> -->
+                </div>
+                <div class="sidebar-brand-text mx-3"><span style="color:#00ff00">Dream</span><span style="color:red">Stocks</span></div>
+            </a>
+
+            <!-- Divider -->
+
+
+            <!-- Nav Item - Dashboard -->
+<!--             <li class="nav-item active">
+                <a class="nav-link" href="index.html">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Dashboard</span></a>
+            </li> -->
+
+            <!-- Divider -->
+
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                MENU
+            </div>
+
+            <!-- Nav Item - Pages Collapse Menu (Home) -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="index.html" data-toggle="collapse" data-target="#collapseTwo"
+                    aria-expanded="true" aria-controls="collapseTwo">
+                    <i class="bi bi-house-fill"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                        <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+                        </svg>
+                    <span>&nbsp;&nbsp;HOME</span>
+                </a>
+<!--                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Custom Components:</h6>
+                        <a class="collapse-item" href="buttons.html">Buttons</a>
+                        <a class="collapse-item" href="cards.html">Cards</a>
+                    </div>
+                </div> -->
+            </li>
+
+            <!-- Nav Item - Utilities Collapse Menu (My Sessions) -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
+                    aria-expanded="true" aria-controls="collapseUtilities">
+                    <i class="bi bi-trophy-fill"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                        <path d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z"/>
+                        </svg>
+                    <span>&nbsp;&nbsp;MY SESSIONS</span>
+                </a>
+                <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
+                    data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Custom Utilities:</h6>
+                        <a class="collapse-item" href="utilities-color.html">Colors</a>
+                        <a class="collapse-item" href="utilities-border.html">Borders</a>
+                        <a class="collapse-item" href="utilities-animation.html">Animations</a>
+                        <a class="collapse-item" href="utilities-other.html">Other</a>
+                    </div>
+                </div>
+            </li>
+
+            
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="learn.html" data-toggle="collapse" data-target="#collapseTwo"
+                    aria-expanded="true" aria-controls="collapseTwo">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABtklEQVQ4ja2UvU6UURCGn7Nh/WkUuoVFLaTRNaEHLGjM3giLiZX2lPx0unoDNtbegZV6CYhQucouEAtthMjPY8EkHj+/XT8TJpnmnfe8Z+bMzIELtjQqqNaAu8DNgHrAZkrp7L9uUSfUDXXguR2Gq/bVdXWiqth99UD9qC6pk1lsSu2o2+q+ulBF7Eh9qtZH8OpqN7jlolHmgfqsUinnZ7rqnjpeFtyIMscK+Lz6Mny+JNNtda0oVosGLGXYovpGPVVfh58GtpjxltVdNeWC96KDk+qM+k49UV+prYzXCuwkODNqM862AGrBnQYOU0oD4BrQAI6BIyB/grHAjoE54AHQD+xGnmFb/VF4ghX1LG5/G25gK+qm+khNMaPtPMMvwFV1CiA2YQv4CswC78NnA9sCvgHfgSZwBfhcbEq/0JS2+lN9rN4OfxJYW708tCkRWI8RqGdYR+3523pqJ4tfUnfUVYoWg72vdktiDbVRgj+Pcbv+l2AQFmKduhVW70Vw54bxctG9KH9ZbWaxafVhlDkobs4o0XF1LR5b//y+dtXVYWX+64NNwB3gVkCfgA8pJStldhH2C+JrPNMkh/+mAAAAAElFTkSuQmCC">
+                    <span>&nbsp;&nbsp;LEARN</span>
+                </a>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+            <div class="sidebar-heading">
+                REFERRALS
+            </div>
+            
+            <li class="nav-item">
+                <a class="nav-link" href="tables.html">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABFUlEQVQ4je2TvUpDQRSEv7k3iI0pbAURH0FEO8mDCLYWpkpjFVL6BkkpwcpHySOkkKBY2QSrRDRj4bmykmuykDYDy+7OnDN79g+22BQCsH0OXAHviXYY/XOGTxO4lzQiDLu2yzTCdst2K6cq26XtLkAjuELSV0biUR0vaWK7AChqkpq226GVttu290Kepk3SRNIkzV8yBDrAI3AKnMS4s676Co0a7hMwMEq4RWxtmm1o+w6YAX3gErgOqQ8MbPeA3RVesz+Gkm7DWMA+cBPSBfAmqbeqsliw9gx3gCHwEW0YXBaWDCXNJY2T+VjSPNew2vLCdrnuLf73DoEXqouLwDN+LuI1CTqO/imjsAPg4ffrbbERvgExW2jwKwHcsQAAAABJRU5ErkJggg==">
+                    <span>&nbsp;Refer a friend</span></a>
+            </li>
+
+            <hr class="sidebar-divider">
+
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                HELP
+            </div>
+
+            <!-- Nav Item - Pages Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="fps.html" data-toggle="collapse" data-target="#collapsePages"
+                    aria-expanded="true" aria-controls="collapsePages">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABlUlEQVQ4ja2UPWsUURSGn3fdaCwMpDFFFAux0Ca1nSiKFoIJSMDgTxCx8jcI4g8QRHSxsDAoiKCdnZZRMYVFEgIGIkZQguLXY5EZHGZnsxvNgcvMPe85D++de+/AFkIdVc+qh7fSV4fsUifVWXVZva3Oq1NN9ak0jgH7KtoocL4Ya0AHeFq87wbuJploBKpXgMvAuz6Gh4CjwCKwFziWZK6+pJa6qo70gZX1l/wb1+t6C9gJ/EryeRAgsFw8vwDT6o468F/jIzAPnNguIGxs1MXtBM4CJ9U9ZaJdVYvvcaBH87ck76uJJOvqM2AKuNMFBI4At2h2/gE405DvAFdLIOqwutLDVVeo54ojs1DMW+qSur/LoTpROGyKtSSn6skkv9X7wAXgWn3Jr9i4aqk3AuubGO8A95qAYw3A10mebAIDeAuMqxnk2NhT0CH1NPAAeJTE/9mUr+qK+lidKa9gG/gBtNV2kp8DMEeAN8AN4GGST1Wx/H3dBA4BL/vAhoFJYDrJi6aCEhjgOHCwD/A78DzJQq+CP5kz1M9SA/cmAAAAAElFTkSuQmCC">
+                    <span>&nbsp;Fanatasy Points System</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="htp.html" data-toggle="collapse" data-target="#collapsePages"
+                    aria-expanded="true" aria-controls="collapsePages">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABmElEQVQ4jZWUPWuUURCFn1lXkSSbrSUxP0IE01oIgh+NJqYSQgxpkk6CEf+BpWlUsFYISExjKxZaqaWFWGRdrCyWkBSB8FjkSl52733feLu558yZM9yZGzQcdQKYTmEvIvbr+FEQ6QJrwE3gEOglaAY4C+wAmxExaDKEuqB+VZeSuxHH6oPEmW8Se6RuqeOnKDyhvlXX65xtqa3GNk5yWkl0bhjoql9yzpLrvvpHfameH8I7qf3J6uUTdSkjdlsdqNfVK+oPdSPDW1YfVy8+Fx7gqnq/Ej9T32R4HfVTNfgwTMokjak/1bUC/lEdbwEXgH6TIPAUGADPC/gvYKp9CiHUa8AicCkiDuu4LeA3J6tVOjeA9xHxvYYzDfTbEbGnnlM7EbFXIL/ieOWyJ41MOyL2/w3xDnCvpvplYLYGXwDeVSt003B2Cg5eqK9L7tRvI7nqfFqj/129bfVOibCeRLNOM8621YdNxLup/eWccBJaSW2OOCt9sJPAKnALOAJ2EzQDnOH4ATZzU5EVHBIfAy6msBcRB3X8vxUJU2HT490TAAAAAElFTkSuQmCC">
+                    <span>&nbsp;&nbsp;How To Play</span>
+                </a>
+            </li>
+
+
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+
+            <div class="sidebar-heading">
+                LEGAL
+            </div>
+
+            <li class="nav-item">
+                <a class="nav-link" href="tnc.html">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABdUlEQVQ4jbWUv0tcURCFvzH+YJE0gnUIqUzKpMh2dhZ2FgGLxEKyjcF/IBhS2FilSRNBsLOzUdFUkiYorIiwsEWa/AcBoxEh5LPwout7+3ZvCgcebx7v3DNnZg431KfAGjBE/3gIPALawA7wISL+3UGoe+pEBhnqijqrhvpJXegGauaQJew3dTTlNfWgiBkAHqgDmZynwBhARFwAg0VAqCvAH2A7g3AGeAw0IuJMbUbEi07AIPAeeAc00oHNPqS/k8qzvuX/Z55V+NzZZUdpqKlyHXgNLAEfgeECZCsius68KyHQAlaBX8AXYKTw/2eVwqqWoyLvG1UKn3Hb8lvKCrfIsdm9bVmdUr+r4+q+2iw8c1VFokBUcn6GwqP02QY+V9nmCTAJbACvKNvmMCJOUr6a3tPAcpHwUu1cQAD2EPkXaEXEpXrcofZG2br6vAdBEb/RiS8tSa2rX9VaJuHLdEHX1Al1t2Ra9Q2wmKuSa8+eAz+A+StmRdC7IS5qWwAAAABJRU5ErkJggg==">
+                    <span>&nbsp;Terms & Conditions</span></a>
+            </li>
+
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+
+            <!-- Sidebar Message -->
+<!--             <div class="sidebar-card d-none d-lg-flex">
+                <img class="sidebar-card-illustration mb-2" src="img/undraw_rocket.svg" alt="...">
+                <p class="text-center mb-2"><strong>SB Admin Pro</strong> is packed with premium features, components, and more!</p>
+                <a class="btn btn-success btn-sm" href="https://startbootstrap.com/theme/sb-admin-pro">Upgrade to Pro!</a>
+            </div> -->
+
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav ml-auto">
+
+                        <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+                        <li class="nav-item dropdown no-arrow d-sm-none">
+                            <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-search fa-fw"></i>
+                            </a>
+                            <!-- Dropdown - Messages -->
+                            <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
+                                aria-labelledby="searchDropdown">
+                                <form class="form-inline mr-auto w-100 navbar-search">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control bg-light border-0 small"
+                                            placeholder="Search for..." aria-label="Search"
+                                            aria-describedby="basic-addon2">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-primary" type="button">
+                                                <i class="fas fa-search fa-sm"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
+
+                        <!-- Nav Item - Alerts -->
+                        <li class="nav-item dropdown no-arrow mx-1">
+                            <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-bell fa-fw"></i>
+                                <!-- Counter - Alerts -->
+                                <span class="badge badge-danger badge-counter">4+</span>
+                            </a>
+                            <!-- Dropdown - Alerts -->
+                            <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                aria-labelledby="alertsDropdown">
+                                <h6 class="dropdown-header">
+                                    Alerts
+                                </h6>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="mr-3">
+                                        <div class="icon-circle bg-success">
+                                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAAFNklEQVRoge2YWWxUZRTHf2dmutqWlrJ1AYs+EAkmKmuAKMQYjUgqERuirUUji4SAJqLxjYQHDQQUHtBABISipGERNbg9iEuMkYLBEDWyU6B7O9OZ3lnu3Ht8AAnLdIHvIgT7f7vnO8v/3O9853z3Qj/60Y+eIF450kNzinHTplyfkXNQxn98wov4AS+cAOAEtiL66HXZiO80UOZFeO8S8evbju02JuLOpN5UXdcN+AO+45kZ6eu9Cu9dIj7/X9GueCQjK+3e3lStriShkNVSPDy/zqvwxmdE6yqLQDaAzmg4H5Si4vwr1kMhi8yMNDIy0y7JuiJx2lrDjCgbBML3wMsytuaYCQ+fibH+Njcf+AF0NCKzhwzNnXfFuqucP9NO/anma2wDaf49qD6JMhDlJ/3l+VITLkaJ4DhvAgXAVBm7bbc/4D8LEI0maGsNc/pUC4hgJ+H82Q7a2yLYdvKCrWpIxm//klj6FNAoAVbcukTQcoStMq6m4XJpY30zTY0hopZ9SRYKWjSdC9LeErrCg0zdFEZkPUi5CRPDRBiIK/VXC0vuHoLdFb5G2bHDDB5WkMKNngHy9btpN9x8TBM5hk8nXC1Mz0inZOSwK2SKMvqBUfh8KUK6vknACZm+P3mjRExLayNKhdZVzrh6JWbZOE4SK9iG1dkBrtJlxa/1UFc1EdFXgI0mTIzaryrCwcrNQBXIjs5OqzAvL+txgNamNro6I5SOLMW2k9Qfr6ekrJjsnGy6InFCQetYcWnBfqAa+Bayn5ZxG+weA96sRC4lc6iqGted39TQOWFo8QB/bzZdkTjtbWEdPmLQQUS3Ej73vklZgQeTXQTVjvLDUjB7sv46Zzhwil5KNh5LkpHpq5bxNdtM4/8L08OOaq0fldXasjdXJuyoB2p60nddJWrF64fO2OdZEmA62U9uzqTDtxaYjt/ZqcFd9xAOLAC2p9K3kw7NTaG/szRzskncVDDbkQF5Y0HGXHwqxaWIadVJGVdTCTIJWBONJuxIZ8yNRGI7gm3hxUUzvxhV+MzuswCqy40rwjOo1qZr+64jGtyT8tbb9vWsP1q/Km9Kadu6c6LqvgwveBi/EZGKBOIulvxZx1OtDyzMaSwclBtMHV2q6bCeNeUAXn2P5OuPV4v0cNVdJJgJ7kiQXD1Q+QKBwGfy4JagtuwqIqDzUBaAPKftO8FJ2yuDy6+91/QRntSoSIVz+bMeqKrC1pOIfgJSBhQifISTPK11lUux00OorxlIIsRQbWZQXtSIg4lxKujBqrmoburZt74l47a/o+27VyLuz1Iw+1PTuJ4mUv/5UyU+h6PiI6tHRcXxiUwd+vDcBAMG/i4y3Wiqg5e/gw5UzUF0K5DWq/IFuIi8LmO3vetFfA//orgt6sgJF8nui7oPEiJ6zqvwnuzIstqVwxxbtij6GH1vIC7KN4F0XlxV8UajKQdPulYywWZFH79Ofz6EJ5I2H3rBwXhHFtUuz8mws0Pc+Etx4mlW/vqK5RETHsY7kmXnFBr68V/0YYTb59JmiB5LS1+dXwT+h1C67USncjNz1t1XtMmExJI/G14qC8e6Ly3BAueQvLehoTuVbtuvLlm0FNVV9DIXRkRixi10RCS2AijpVkEB/AldunCZrP1gXSqVlKWlry2+H9HV9H24/RdIB1mjSxaOSbWY+oy4yUeAXn8i3AL4EaalWujmsEvezWRjhtTc7piu1Z/I7Yb+RG433DGJpJ7sIntQPdoXB5Y/4IjhzLH8AScnmeybD5EjJrH60Y//K/4Bb1H8uLbLzYIAAAAASUVORK5CYII=">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="small text-gray-500">34 minutes ago</div>
+                                        Congratulations on adding money to your wallet! Now you can easily participate in various contests.
+                                    </div>
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="mr-3">
+                                        <div class="icon-circle bg-success">
+                                            <i class="fas fa-donate text-white"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="small text-gray-500">1 hour ago</div>
+                                        ₹690.29 has been deposited into your wallet!
+                                    </div>
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="mr-3">
+                                        <div class="icon-circle bg-primary">
+                                            <i class="fas fa-file-alt text-white"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="small text-gray-500">6 hours ago</div>
+                                        <span class="font-weight-bold">Hurray! KYC Documents Verfied! You can add money in your wallet and participate in any contest.</span>
+                                    </div>
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="mr-3">
+                                        <div class="icon-circle bg-warning">
+                                            <i class="fas fa-exclamation-triangle text-white"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="small text-gray-500">Yesterday</div>
+                                        Alert! Please submit your details for KYC!
+                                    </div>
+                                </a>
+                                <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+                            </div>
+                        </li>
+                        
+                        <div class="topbar-divider d-none d-sm-block"></div>
+
+                        <!-- Nav Item - User Information -->
+                        <li class="nav-item dropdown no-arrow">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Tanay N</span>
+                                <img class="img-profile rounded-circle"
+                                    src="img/undraw_profile.svg">
+                            </a>
+                            <!-- Dropdown - User Information -->
+                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                aria-labelledby="userDropdown">
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Profile
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Settings
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Activity Log
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Logout
+                                </a>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </nav>
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h1 class="h3 mb-0 text-gray-800">Select Stocks!</h1>
+                    </div>
+
+
+
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Sector</th>
+                            <th>%</th>
+                            <th>Add</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Kotak Mahindra Bank Ltd.</td>
+                            <td>FINSERV</td>
+                            <td>-0.90</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>Graseem Industries Ltd.</td>
+                            <td>INFRA</td>
+                            <td>+0.57</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>Coal India Ltd.</td>
+                            <td>Others</td>
+                            <td>+0.7</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>HDFC Bank Ltd.</td>
+                            <td>FINSERV</td>
+                            <td>+1.2</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>Bharat Petroleum Corp Ltd.</td>
+                            <td>INFRA(Oil & Gas)</td>
+                            <td>-0.2</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>Eicher Motors Ltd.</td>
+                            <td>Others(Automobile)</td>
+                            <td>-0.3</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>Nestle India Ltd.</td>
+                            <td>Others(Consumer Goods)</td>
+                            <td>-0.014</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>State Bank of India Ltd.</td>
+                            <td>FINSERV(Banks)</td>
+                            <td>-2.17</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>L&T Ltd.</td>
+                            <td>INFRA(Construction)</td>
+                            <td>+1.31</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>Adani Enterprises Ltd.</td>
+                            <td>Others</td>
+                            <td>+0.35</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>Hero Motor Corp Ltd.</td>
+                            <td>Others(Automobile)</td>
+                            <td>-0.90</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>JSW Steel Ltd.</td>
+                            <td>Others(Metals)</td>
+                            <td>+0.65</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>Adani Ports Ltd.</td>
+                            <td>INFRA</td>
+                            <td>-0.90</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>ICICI Bank Ltd.</td>
+                            <td>FINSERV</td>
+                            <td>-0.90</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>Tata Consultancy Services Ltd.</td>
+                            <td>FINSERV</td>
+                            <td>-0.90</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>Wipro Ltd.</td>
+                            <td>Others(IT)</td>
+                            <td>-0.90</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>ONGC Ltd.</td>
+                            <td>INFRA(Oil & Gas)</td>
+                            <td>-2.3</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>SBI Life Insurance Co Ltd.</td>
+                            <td>FINSERV(Financial Services)</td>
+                            <td>-1.58</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>Reliace Industries Ltd.</td>
+                            <td>INFRA(Oil & Gas)</td>
+                            <td>+2.3</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>Tata Motors Ltd.</td>
+                            <td>Others(Automobile)</td>
+                            <td>+0.62</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>IndusInd Bank Ltd.</td>
+                            <td>FINSERV</td>
+                            <td>-0.4</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>UltraTech Cement Ltd.</td>
+                            <td>INFRA(Cement)</td>
+                            <td>+0.16</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>NTPC Ltd.</td>
+                            <td>INFRA(Power)</td>
+                            <td>-0.06</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>Britannia Industries Ltd.</td>
+                            <td>Others(Consumer Goods)</td>
+                            <td>+0.35</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>Divis Laboratories Ltd.</td>
+                            <td>Others(Pharma)</td>
+                            <td>+0.3</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>Axis Bank Ltd.</td>
+                            <td>FINSERV</td>
+                            <td>-0.62</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>Apollo Hospitals Ltd.</td>
+                            <td>Others(Pharma)</td>
+                            <td>+2.3</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Corp of India Ltd.</td>
+                            <td>INFRA(Power)</td>
+                            <td>-0.47</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>Tata Consumer Products Ltd.</td>
+                            <td>Others(Consumer Goods)</td>
+                            <td>+0.32</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>Titan Company Ltd.</td>
+                            <td>Others(Consumer Goods)</td>
+                            <td>-0.43</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>HDFC Life Insurance Ltd.</td>
+                            <td>FINSERV(Financial Service)</td>
+                            <td>-0.90</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>Bajaj Finance Ltd.</td>
+                            <td>FINSERV(Financial Services)</td>
+                            <td>+6.3</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>Asian Paints Ltd.</td>
+                            <td>Others(Consumer Goods)</td>
+                            <td>+5.6</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>Bharti Airtel Ltd.</td>
+                            <td>Others(Telco)</td>
+                            <td>+1.3</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>Mahindra & Mahindra Ltd.</td>
+                            <td>Others(Automobile)</td>
+                            <td>+3.6</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>ITC Ltd.</td>
+                            <td>Others(Consumer Goods)</td>
+                            <td>-0.90</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>Infosys Ltd.</td>
+                            <td>Others(IT)</td>
+                            <td>-6.3</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>UPL Ltd.</td>
+                            <td>Others</td>
+                            <td>-1.67</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>Hindalco Industries Ltd.</td>
+                            <td>Others(Metal)</td>
+                            <td>-0.90</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>Cipla Ltd.</td>
+                            <td>Others(Pharma)</td>
+                            <td>+1.2</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>Sun Pharma Industries Ltd.</td>
+                            <td>Others(Pharma)</td>
+                            <td>+2.3</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                        <tr>
+                            <td>MRF Ltd.</td>
+                            <td>Others</td>
+                            <td>+5.2</td>
+                            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABRElEQVQ4jaXUSy4FQRQG4M9FJLh9JwzEYyd2gMSbMWLCTMRCMLABiQjxWAfW4BETE+GSCIlBVUeH7r6NP6mkqvqv//ynTp1u0xq9GIrzGzTLyG0F+w2sYwxvUQhG0IkzbOOxgiELuMRSdJfneDly5lqJbeEQPRUC9+IYm2XODlGrIJaiFkVnv39o4KLE2WQceagL6SdpBEIBdhRXsD+OPDxhF2tZwQkcFByogn2Mp4J1vMZIf8Uz3tHTgQHcfSNMoS+zHs0RecBRZn2Lwd9UtBI6cO+rtVIc5XBhr0RrCHc14e66hLv8K+pCPZppyqeY/4fgIs6zGw3hcRa5LHvYCa7yzs4JbfTb1jvBdBFhM4pWuc8kim20Is4I6a8UCCdYFdL84azoB5sIvTmOD1zH/RG0C0XcltNdRYJZdGM4zm/wUkb+BA2BN9bgWIvwAAAAAElFTkSuQmCC"></td>
+                        </tr>
+                    </tbody>
+
+                </table>
+
+
+                    <!-- Content Row -->
+                    <div class="row">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
